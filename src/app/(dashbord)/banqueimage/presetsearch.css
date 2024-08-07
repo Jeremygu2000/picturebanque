@@ -1,0 +1,19 @@
+.presetsearch {
+    display: flex;
+    justify-content: center;
+}
+
+.presetsearch button {
+    margin: 20px;
+    background-color: rgba(255, 0, 0, 0.706);
+    /* Couleur de fond gris pour les boutons */
+    font-weight: bold;
+    /* Texte en gras */
+    transition: transform 0.7s ease;
+    /* Transition pour l'effet de vibration */
+}
+
+.presetsearch button:hover {
+    transform: scale(1.1);
+    /* Augmentation de l'échelle pour l'effet de vibration au survol */
+}

@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #f0f0f0;
+  /* Subtle gray background color */
+  color: #333;
+  /* Dark gray text color */
+}
+
+.button:hover {
+  background-color: #ccc;
+  /* Lighter gray background color on hover */
+  color: #000;
+  /* Black text color on hover */
+}
